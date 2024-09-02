@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-30T21:26:45 IST" name="Suite" finished-at="2024-08-30T21:27:33 IST" duration-ms="47918">
+    <groups>
+    </groups>
+    <test started-at="2024-08-30T21:26:45 IST" name="Test" finished-at="2024-08-30T21:27:33 IST" duration-ms="47918">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:26:54 IST" name="setup" finished-at="2024-08-30T21:26:57 IST" duration-ms="2352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterAnAccountWithMandatoryFields()[pri:1, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:26:57 IST" name="verifyRegisterAnAccountWithMandatoryFields" finished-at="2024-08-30T21:26:58 IST" duration-ms="1413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAnAccountWithMandatoryFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:26:58 IST" name="teardown" finished-at="2024-08-30T21:26:58 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:26:58 IST" name="setup" finished-at="2024-08-30T21:27:02 IST" duration-ms="3381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountWithAllTheFields()[pri:2, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:27:02 IST" name="verifyRegisteringAccountWithAllTheFields" finished-at="2024-08-30T21:27:03 IST" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithAllTheFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:27:03 IST" name="teardown" finished-at="2024-08-30T21:27:04 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:27:04 IST" name="setup" finished-at="2024-08-30T21:27:06 IST" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountWithExistingEmailAddress()[pri:3, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:27:06 IST" name="verifyRegisteringAccountWithExistingEmailAddress" finished-at="2024-08-30T21:27:07 IST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithExistingEmailAddress -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:27:07 IST" name="teardown" finished-at="2024-08-30T21:27:07 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:27:07 IST" name="setup" finished-at="2024-08-30T21:27:10 IST" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountWithoutFillingAnyDetails()[pri:4, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:27:10 IST" name="verifyRegisteringAccountWithoutFillingAnyDetails" finished-at="2024-08-30T21:27:10 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithoutFillingAnyDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@165b2f7f]" started-at="2024-08-30T21:27:10 IST" name="teardown" finished-at="2024-08-30T21:27:10 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_002_LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:11 IST" name="setup" finished-at="2024-08-30T21:27:13 IST" duration-ms="2165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:13 IST" name="verifyLoginWithValidCredentials" data-provider="supplyTestData" finished-at="2024-08-30T21:27:14 IST" duration-ms="765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalyanshaan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:14 IST" name="teardown" finished-at="2024-08-30T21:27:14 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:14 IST" name="setup" finished-at="2024-08-30T21:27:16 IST" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:16 IST" name="verifyLoginWithValidCredentials" data-provider="supplyTestData" finished-at="2024-08-30T21:27:17 IST" duration-ms="760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalyanadmin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:17 IST" name="teardown" finished-at="2024-08-30T21:27:17 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:17 IST" name="setup" finished-at="2024-08-30T21:27:19 IST" duration-ms="2192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:19 IST" name="verifyLoginWithValidCredentials" data-provider="supplyTestData" finished-at="2024-08-30T21:27:20 IST" duration-ms="800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashankadmin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:20 IST" name="teardown" finished-at="2024-08-30T21:27:20 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:20 IST" name="setup" finished-at="2024-08-30T21:27:23 IST" duration-ms="2361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="veriifyLoginWithInValidCredentials()[pri:2, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:23 IST" name="veriifyLoginWithInValidCredentials" finished-at="2024-08-30T21:27:23 IST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriifyLoginWithInValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:23 IST" name="teardown" finished-at="2024-08-30T21:27:24 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:24 IST" name="setup" finished-at="2024-08-30T21:27:26 IST" duration-ms="2305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidEmailAddressValidPasswordCredentials()[pri:3, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:26 IST" name="verifyInvalidEmailAddressValidPasswordCredentials" finished-at="2024-08-30T21:27:27 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEmailAddressValidPasswordCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:27 IST" name="teardown" finished-at="2024-08-30T21:27:27 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:27 IST" name="setup" finished-at="2024-08-30T21:27:29 IST" duration-ms="2422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyValidEmailAddressInvalidPassword()[pri:4, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:29 IST" name="VerifyValidEmailAddressInvalidPassword" finished-at="2024-08-30T21:27:30 IST" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidEmailAddressInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:30 IST" name="teardown" finished-at="2024-08-30T21:27:30 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:30 IST" name="setup" finished-at="2024-08-30T21:27:32 IST" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithoutProvidingCredentials()[pri:5, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:32 IST" name="VerifyLoginWithoutProvidingCredentials" finished-at="2024-08-30T21:27:33 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithoutProvidingCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginPageTest@5536379e]" started-at="2024-08-30T21:27:33 IST" name="teardown" finished-at="2024-08-30T21:27:33 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_002_LoginPageTest -->
+      <class name="testCases.TC_003_SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_003_SearchTest@38be305c]" started-at="2024-08-30T21:26:45 IST" name="setup" finished-at="2024-08-30T21:26:49 IST" duration-ms="3278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:testCases.TC_003_SearchTest@38be305c]" started-at="2024-08-30T21:26:49 IST" name="verifySearchWithValidProduct" finished-at="2024-08-30T21:26:49 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_003_SearchTest@38be305c]" started-at="2024-08-30T21:26:49 IST" name="teardown" finished-at="2024-08-30T21:26:49 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_003_SearchTest@38be305c]" started-at="2024-08-30T21:26:49 IST" name="setup" finished-at="2024-08-30T21:26:51 IST" duration-ms="1963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySearchWithInValidProduct()[pri:2, instance:testCases.TC_003_SearchTest@38be305c]" started-at="2024-08-30T21:26:51 IST" name="VerifySearchWithInValidProduct" finished-at="2024-08-30T21:26:52 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchWithInValidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_003_SearchTest@38be305c]" started-at="2024-08-30T21:26:52 IST" name="teardown" finished-at="2024-08-30T21:26:52 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_003_SearchTest@38be305c]" started-at="2024-08-30T21:26:52 IST" name="setup" finished-at="2024-08-30T21:26:54 IST" duration-ms="1942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithoutAnyProduct()[pri:3, instance:testCases.TC_003_SearchTest@38be305c]" started-at="2024-08-30T21:26:54 IST" name="verifySearchWithoutAnyProduct" finished-at="2024-08-30T21:26:54 IST" depends-on-methods="testCases.TC_003_SearchTest.verifySearchWithValidProduct, testCases.TC_003_SearchTest.VerifySearchWithInValidProduct" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutAnyProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_003_SearchTest@38be305c]" started-at="2024-08-30T21:26:54 IST" name="teardown" finished-at="2024-08-30T21:26:54 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_003_SearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
